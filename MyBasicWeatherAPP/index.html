@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="container m-3">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <span class="fw-bold text-danger">Weather App</span> 
+              </a>
+            </div>
+          </nav>
+        <div class="row my-5">
+            <div class="col-md-3">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search a City" aria-label="Recipient's username" aria-describedby="button-addon2">
+                </div>
+                <span id="alert"></span>
+            </div>
+            <div class="col-md-9">
+                <div class="container">
+                    <div id="weathershow">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+<script src="Request.js"></script>
+<script src="UI.js"></script>
+<script src="App.js"></script>
+</body>
+</html>
